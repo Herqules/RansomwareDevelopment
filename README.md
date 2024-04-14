@@ -1,10 +1,17 @@
 # Ransomware
-Python Temel Ransomware
-Okul Projesi olarak yapılmış basit bir Ransomware yazılımıdır.
-Kötüye kullanımda hiçbir sorumluluk kabul edilmemektedir.
-Geliştirmeye açık bir projedir. Ransomware yazılımını attığınız klasördeki dosyları şifrelemektedir.
+This project includes a simple Python ransomware application designed for modeling recursive 
+encryption within directories. It features scripts for encrypting and decrypting files within 
+the same directory.
 
-Python Basic Ransomware
-It is a simple Ransomware made as a School Project.
-There is no acceptance of responsibility for abuse.
-It is a project that is open to development. The ransomware encrypts the files in the folder where you added the software.
+## Components
+
+- **RansomwareV1.py**: Script to encrypt files.
+- **RansomwareDecryptV1.py**: Script to decrypt files.
+
+## Key Notes
+
+- Both the encryption and decryption scripts must use the same password to function correctly.
+- The scripts only operate within the directory they are placed in, ensuring safety and 
+simplicity for testing purposes.
+
+
