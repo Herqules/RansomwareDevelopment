@@ -15,3 +15,6 @@ the same directory.
 simplicity for testing purposes.
 
 
+ **Added Later**
+ - WIP (Work In Progress)
+ - GetToKnowYou.py: script for combing a machine for all data (network, fingerprint, location, credentials) before emailing it to target destination.
